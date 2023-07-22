@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Zeyada&display=swap');
+body{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.outerbox{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(to top left,#3ed8ff,#a8f5ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    height: 500px;
+    width: 400px;
+    background:linear-gradient(to top left,#ffffffff,#ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #1f6696;
+    z-index: 2;
+}
+h1{
+    margin-left: 20px;
+    color: #212121;
+}
+.description{
+    margin-top: -15px;
+    margin-left: 20px;
+    color: #555;
+}
+.button{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.name{
+    margin-left: 20px;
+}
+.email{
+    margin-left: 20px;
+}
+.paas{
+    margin-left: 20px;
+}
+.login{
+    text-align: center;
+    color: #555;
+}
+.login a{
+    color: #3498db;
+}
+.button input{
+    width: 100%;
+    height: 30px;
+}
+input{
+    border-radius: 4px;
+    font-size: 1rem;
+}
+input[type="submit"]{
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #3498db;
+}
+input[type="submit"]:hover{
+    background-color: #1f6696;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33,#ffffffff);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
